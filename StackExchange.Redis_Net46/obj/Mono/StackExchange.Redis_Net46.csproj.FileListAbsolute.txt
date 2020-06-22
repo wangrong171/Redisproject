@@ -1,0 +1,7 @@
+D:\StackExchange.Redis\StackExchange.Redis_Net46\bin\Mono\StackExchange.Redis.dll.config
+D:\StackExchange.Redis\StackExchange.Redis_Net46\bin\Mono\StackExchange.Redis.dll
+D:\StackExchange.Redis\StackExchange.Redis_Net46\bin\Mono\StackExchange.Redis.pdb
+D:\StackExchange.Redis\StackExchange.Redis_Net46\bin\Mono\StackExchange.Redis.xml
+D:\StackExchange.Redis\StackExchange.Redis_Net46\obj\Mono\StackExchange.Redis_Net46.csproj.CoreCompileInputs.cache
+D:\StackExchange.Redis\StackExchange.Redis_Net46\obj\Mono\StackExchange.Redis.dll
+D:\StackExchange.Redis\StackExchange.Redis_Net46\obj\Mono\StackExchange.Redis.pdb

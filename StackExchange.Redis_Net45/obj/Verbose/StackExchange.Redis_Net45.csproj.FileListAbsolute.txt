@@ -1,0 +1,7 @@
+D:\StackExchange.Redis\StackExchange.Redis_Net45\obj\Verbose\StackExchange.Redis_Net45.csproj.CoreCompileInputs.cache
+D:\StackExchange.Redis\StackExchange.Redis_Net45\bin\Verbose\StackExchange.Redis.dll
+D:\StackExchange.Redis\StackExchange.Redis_Net45\bin\Verbose\StackExchange.Redis.pdb
+D:\StackExchange.Redis\StackExchange.Redis_Net45\bin\Verbose\StackExchange.Redis.xml
+D:\StackExchange.Redis\StackExchange.Redis_Net45\obj\Verbose\StackExchange.Redis.dll
+D:\StackExchange.Redis\StackExchange.Redis_Net45\obj\Verbose\StackExchange.Redis.pdb
+D:\StackExchange.Redis\StackExchange.Redis_Net45\obj\Verbose\StackExchange.Redis_Net45.csprojAssemblyReference.cache

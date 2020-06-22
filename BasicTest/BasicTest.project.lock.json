@@ -1,0 +1,65 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "StackExchange.Redis_Net45/1.0.0": {
+        "type": "project"
+      }
+    },
+    ".NETFramework,Version=v4.5/win": {
+      "StackExchange.Redis_Net45/1.0.0": {
+        "type": "project"
+      }
+    }
+  },
+  "libraries": {
+    "StackExchange.Redis_Net45/1.0.0": {
+      "type": "project",
+      "path": "../StackExchange.Redis_Net45/StackExchange.Redis_Net45.csproj",
+      "msbuildProject": "../StackExchange.Redis_Net45/StackExchange.Redis_Net45.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.5": []
+  },
+  "packageFolders": {
+    "C:\\Users\\fionawang.TADASHI-SH\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "D:\\StackExchange.Redis\\BasicTest\\BasicTest.csproj",
+      "projectName": "BasicTest",
+      "projectPath": "D:\\StackExchange.Redis\\BasicTest\\BasicTest.csproj",
+      "projectJsonPath": "D:\\StackExchange.Redis\\BasicTest\\BasicTest.project.json",
+      "packagesPath": "C:\\Users\\fionawang.TADASHI-SH\\.nuget\\packages\\",
+      "outputPath": "D:\\StackExchange.Redis\\BasicTest\\obj\\",
+      "projectStyle": "ProjectJson",
+      "configFilePaths": [
+        "D:\\StackExchange.Redis\\NuGet.Config",
+        "C:\\Users\\fionawang.TADASHI-SH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net45": {
+          "projectReferences": {
+            "D:\\StackExchange.Redis\\StackExchange.Redis_Net45\\StackExchange.Redis_Net45.csproj": {
+              "projectPath": "D:\\StackExchange.Redis\\StackExchange.Redis_Net45\\StackExchange.Redis_Net45.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net45": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      }
+    }
+  }
+}

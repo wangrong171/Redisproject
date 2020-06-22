@@ -1,0 +1,14 @@
+D:\StackExchange.Redis\ConnectionWatcher\obj\Verbose\ConnectionWatcher.csprojAssemblyReference.cache
+D:\StackExchange.Redis\ConnectionWatcher\obj\Verbose\ConnectionWatcher.Form1.resources
+D:\StackExchange.Redis\ConnectionWatcher\obj\Verbose\ConnectionWatcher.Properties.Resources.resources
+D:\StackExchange.Redis\ConnectionWatcher\obj\Verbose\ConnectionWatcher.csproj.GenerateResource.cache
+D:\StackExchange.Redis\ConnectionWatcher\obj\Verbose\ConnectionWatcher.csproj.CoreCompileInputs.cache
+D:\StackExchange.Redis\ConnectionWatcher\bin\Verbose\ConnectionWatcher.exe.config
+D:\StackExchange.Redis\ConnectionWatcher\bin\Verbose\ConnectionWatcher.exe
+D:\StackExchange.Redis\ConnectionWatcher\bin\Verbose\ConnectionWatcher.pdb
+D:\StackExchange.Redis\ConnectionWatcher\bin\Verbose\StackExchange.Redis.dll
+D:\StackExchange.Redis\ConnectionWatcher\bin\Verbose\StackExchange.Redis.pdb
+D:\StackExchange.Redis\ConnectionWatcher\bin\Verbose\StackExchange.Redis.xml
+D:\StackExchange.Redis\ConnectionWatcher\obj\Verbose\ConnectionWatcher.csproj.CopyComplete
+D:\StackExchange.Redis\ConnectionWatcher\obj\Verbose\ConnectionWatcher.exe
+D:\StackExchange.Redis\ConnectionWatcher\obj\Verbose\ConnectionWatcher.pdb

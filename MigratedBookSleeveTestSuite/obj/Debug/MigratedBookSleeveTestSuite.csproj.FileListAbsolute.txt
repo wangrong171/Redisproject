@@ -1,0 +1,12 @@
+D:\StackExchange.Redis\MigratedBookSleeveTestSuite\bin\Debug\MigratedBookSleeveTestSuite.dll.config
+D:\StackExchange.Redis\MigratedBookSleeveTestSuite\bin\Debug\MigratedBookSleeveTestSuite.dll
+D:\StackExchange.Redis\MigratedBookSleeveTestSuite\bin\Debug\MigratedBookSleeveTestSuite.pdb
+D:\StackExchange.Redis\MigratedBookSleeveTestSuite\bin\Debug\nunit.framework.dll
+D:\StackExchange.Redis\MigratedBookSleeveTestSuite\bin\Debug\StackExchange.Redis.dll
+D:\StackExchange.Redis\MigratedBookSleeveTestSuite\bin\Debug\StackExchange.Redis.pdb
+D:\StackExchange.Redis\MigratedBookSleeveTestSuite\bin\Debug\StackExchange.Redis.xml
+D:\StackExchange.Redis\MigratedBookSleeveTestSuite\obj\Debug\MigratedBookSleeveTestSuite.csprojAssemblyReference.cache
+D:\StackExchange.Redis\MigratedBookSleeveTestSuite\obj\Debug\MigratedBookSleeveTestSuite.csproj.CoreCompileInputs.cache
+D:\StackExchange.Redis\MigratedBookSleeveTestSuite\obj\Debug\MigratedBookSleeveTestSuite.csproj.CopyComplete
+D:\StackExchange.Redis\MigratedBookSleeveTestSuite\obj\Debug\MigratedBookSleeveTestSuite.dll
+D:\StackExchange.Redis\MigratedBookSleeveTestSuite\obj\Debug\MigratedBookSleeveTestSuite.pdb

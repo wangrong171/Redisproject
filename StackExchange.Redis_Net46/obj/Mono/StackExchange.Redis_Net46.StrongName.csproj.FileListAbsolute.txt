@@ -1,0 +1,6 @@
+D:\StackExchange.Redis\StackExchange.Redis_Net46\bin\Mono\StackExchange.Redis.StrongName.dll
+D:\StackExchange.Redis\StackExchange.Redis_Net46\bin\Mono\StackExchange.Redis.StrongName.pdb
+D:\StackExchange.Redis\StackExchange.Redis_Net46\bin\Mono\StackExchange.Redis.StrongName.xml
+D:\StackExchange.Redis\StackExchange.Redis_Net46\obj\Mono\StackExchange.Redis_Net46.StrongName.csproj.CoreCompileInputs.cache
+D:\StackExchange.Redis\StackExchange.Redis_Net46\obj\Mono\StackExchange.Redis.StrongName.dll
+D:\StackExchange.Redis\StackExchange.Redis_Net46\obj\Mono\StackExchange.Redis.StrongName.pdb

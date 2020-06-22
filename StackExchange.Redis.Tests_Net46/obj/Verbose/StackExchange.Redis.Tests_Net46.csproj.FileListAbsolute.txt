@@ -1,0 +1,2 @@
+D:\StackExchange.Redis\StackExchange.Redis.Tests_Net46\obj\Verbose\StackExchange.Redis.Tests_Net46.csprojAssemblyReference.cache
+D:\StackExchange.Redis\StackExchange.Redis.Tests_Net46\obj\Verbose\StackExchange.Redis.Tests_Net46.csproj.CoreCompileInputs.cache

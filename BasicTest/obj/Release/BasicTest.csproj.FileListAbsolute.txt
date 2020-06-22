@@ -1,0 +1,10 @@
+D:\StackExchange.Redis\BasicTest\obj\Release\BasicTest.csprojAssemblyReference.cache
+D:\StackExchange.Redis\BasicTest\obj\Release\BasicTest.csproj.CoreCompileInputs.cache
+D:\StackExchange.Redis\BasicTest\bin\Release\BasicTest.exe
+D:\StackExchange.Redis\BasicTest\bin\Release\BasicTest.pdb
+D:\StackExchange.Redis\BasicTest\bin\Release\StackExchange.Redis.dll
+D:\StackExchange.Redis\BasicTest\bin\Release\StackExchange.Redis.pdb
+D:\StackExchange.Redis\BasicTest\bin\Release\StackExchange.Redis.xml
+D:\StackExchange.Redis\BasicTest\obj\Release\BasicTest.csproj.CopyComplete
+D:\StackExchange.Redis\BasicTest\obj\Release\BasicTest.exe
+D:\StackExchange.Redis\BasicTest\obj\Release\BasicTest.pdb
