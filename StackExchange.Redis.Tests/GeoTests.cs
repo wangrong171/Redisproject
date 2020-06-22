@@ -34,8 +34,8 @@ namespace StackExchange.Redis.Tests
             palermo = new GeoEntry(13.361389, 38.115556, "Palermo"),
             catania = new GeoEntry(15.087269, 37.502669, "Catania"),
             agrigento = new GeoEntry(13.5765, 37.311, "Agrigento"),
-            cefalù = new GeoEntry(14.0188, 38.0084, "Cefalù");
-        public static GeoEntry[] all = { palermo, catania, agrigento , cefalù };
+            cefal= new GeoEntry(14.0188, 38.0084, "Cefal");
+        public static GeoEntry[] all = { palermo, catania, agrigento , cefal};
         [AzureTest]
         public void GeoAdd()
         {
@@ -46,12 +46,12 @@ namespace StackExchange.Redis.Tests
                 db.KeyDelete(key);
                 
                 // add while not there
-                Assert.IsTrue(db.GeoAdd(key, cefalù.Longitude, cefalù.Latitude, cefalù.Member));
+                Assert.IsTrue(db.GeoAdd(key, cefal.Longitude, cefal.Latitude, cefal.Member));
                 Assert.AreEqual(2, db.GeoAdd(key, new GeoEntry[] { palermo, catania }));                
                 Assert.IsTrue(db.GeoAdd(key, agrigento));
 
                 // now add again
-                Assert.IsFalse(db.GeoAdd(key, cefalù.Longitude, cefalù.Latitude, cefalù.Member));
+                Assert.IsFalse(db.GeoAdd(key, cefal.Longitude, cefal.Latitude, cefal.Member));
                 Assert.AreEqual(0, db.GeoAdd(key, new GeoEntry[] { palermo, catania }));
                 Assert.IsFalse(db.GeoAdd(key, agrigento));
 
@@ -155,13 +155,13 @@ namespace StackExchange.Redis.Tests
                 db.KeyDelete(key);
                 db.GeoAdd(key, all);
 
-                var results = db.GeoRadius(key, cefalù.Member, 60, GeoUnit.Miles, 2, Order.Ascending);
+                var results = db.GeoRadius(key, cefal.Member, 60, GeoUnit.Miles, 2, Order.Ascending);
                 Assert.AreEqual(2, results.Length);
 
-                Assert.AreEqual(results[0].Member, cefalù.Member);
+                Assert.AreEqual(results[0].Member, cefal.Member);
                 Assert.AreEqual(0, results[0].Distance.Value);
-                Assert.AreEqual(Math.Round(results[0].Position.Value.Longitude, 5), Math.Round(cefalù.Position.Longitude, 5));
-                Assert.AreEqual(Math.Round(results[0].Position.Value.Latitude, 5), Math.Round(cefalù.Position.Latitude, 5));
+                Assert.AreEqual(Math.Round(results[0].Position.Value.Longitude, 5), Math.Round(cefal.Position.Longitude, 5));
+                Assert.AreEqual(Math.Round(results[0].Position.Value.Latitude, 5), Math.Round(cefal.Position.Latitude, 5));
                 Assert.IsFalse(results[0].Hash.HasValue);
 
                 Assert.AreEqual(results[1].Member, palermo.Member);
@@ -170,9 +170,9 @@ namespace StackExchange.Redis.Tests
                 Assert.AreEqual(Math.Round(results[1].Position.Value.Latitude, 5), Math.Round(palermo.Position.Latitude, 5));
                 Assert.IsFalse(results[1].Hash.HasValue);
 
-                results = db.GeoRadius(key, cefalù.Member, 60, GeoUnit.Miles, 2, Order.Ascending, GeoRadiusOptions.None);
+                results = db.GeoRadius(key, cefal.Member, 60, GeoUnit.Miles, 2, Order.Ascending, GeoRadiusOptions.None);
                 Assert.AreEqual(2, results.Length);
-                Assert.AreEqual(results[0].Member, cefalù.Member);
+                Assert.AreEqual(results[0].Member, cefal.Member);
                 Assert.IsFalse(results[0].Position.HasValue);
                 Assert.IsFalse(results[0].Distance.HasValue);
                 Assert.IsFalse(results[0].Hash.HasValue);
