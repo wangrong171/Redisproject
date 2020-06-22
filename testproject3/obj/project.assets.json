@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.1": []
+  },
+  "packageFolders": {
+    "C:\\Users\\fionawang.TADASHI-SH\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\StackExchange.Redis\\testproject3\\testproject3.csproj",
+      "projectName": "testproject3",
+      "projectPath": "D:\\StackExchange.Redis\\testproject3\\testproject3.csproj",
+      "packagesPath": "C:\\Users\\fionawang.TADASHI-SH\\.nuget\\packages\\",
+      "outputPath": "D:\\StackExchange.Redis\\testproject3\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "D:\\StackExchange.Redis\\NuGet.Config",
+        "C:\\Users\\fionawang.TADASHI-SH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.1": {}
+    }
+  }
+}

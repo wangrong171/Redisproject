@@ -58,6 +58,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackExchange.Redis_Net45.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackExchange.Redis.Tests_Net46", "StackExchange.Redis.Tests_Net46\StackExchange.Redis.Tests_Net46.csproj", "{19C00111-1328-4089-8565-94920B5B47F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testproject3", "testproject3\testproject3.csproj", "{5EF83B42-3BDD-4C31-BDD3-CA27FF356074}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,8 +169,21 @@ Global
 		{19C00111-1328-4089-8565-94920B5B47F2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19C00111-1328-4089-8565-94920B5B47F2}.Verbose|Any CPU.ActiveCfg = Verbose|Any CPU
 		{19C00111-1328-4089-8565-94920B5B47F2}.Verbose|Any CPU.Build.0 = Verbose|Any CPU
+		{5EF83B42-3BDD-4C31-BDD3-CA27FF356074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF83B42-3BDD-4C31-BDD3-CA27FF356074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF83B42-3BDD-4C31-BDD3-CA27FF356074}.Log Output|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF83B42-3BDD-4C31-BDD3-CA27FF356074}.Log Output|Any CPU.Build.0 = Debug|Any CPU
+		{5EF83B42-3BDD-4C31-BDD3-CA27FF356074}.Mono|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF83B42-3BDD-4C31-BDD3-CA27FF356074}.Mono|Any CPU.Build.0 = Debug|Any CPU
+		{5EF83B42-3BDD-4C31-BDD3-CA27FF356074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF83B42-3BDD-4C31-BDD3-CA27FF356074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF83B42-3BDD-4C31-BDD3-CA27FF356074}.Verbose|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF83B42-3BDD-4C31-BDD3-CA27FF356074}.Verbose|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5CFDD49-5108-4698-BD11-E3FDCD040CD4}
 	EndGlobalSection
 EndGlobal
